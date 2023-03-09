@@ -7,8 +7,8 @@ import { MissionPage } from "../pages/auth/Mission.page";
 const MainRoute = () => {
   return (
     <Routes>
-      {/* <Route path={''} element={<LandingPage/>} /> */}
-      <Route path={""} element={<MissionPage />} />
+      <Route path={""} element={<LandingPage />} />
+      {/* <Route path={""} element={<MissionPage />} /> */}
     </Routes>
   );
 };

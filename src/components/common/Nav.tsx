@@ -1,12 +1,13 @@
 import React from "react";
-import { Button, Grid } from "@mantine/core";
+import { Button } from "@mantine/core";
 
 const Nav = () => {
   return (
     <div>
-      <nav className="flex justify-between px-3">
+      <nav className="flex justify-between p-4">
         <img
-          className="h-[84px] w-[244px]"
+          // className="h-[84px] w-[244px]"
+          className="h-[60px] w-[150px]"
           src="/assets/arnikowhite 1.png"
           alt=""
         />

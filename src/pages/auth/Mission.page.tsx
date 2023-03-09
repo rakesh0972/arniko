@@ -18,19 +18,19 @@ export const MissionPage = () => {
         <div className="bg-gray-100">
           <ul className="flex p-4">
             <li className="inline-flex">
-              <a href="#" className="text-gray-500 hover:text-gray-700">
+              <a href="#" className="text-gray-500 hover:text-arniko-red">
                 Home
               </a>
               <span className="mx-2">/</span>
             </li>
             <li className="inline-flex">
-              <a href="#" className="text-gray-500 hover:text-gray-700">
+              <a href="#" className="text-gray-500 hover:text-arniko-red">
                 About Arniko
               </a>
               <span className="mx-2">/</span>
             </li>
             <li className="inline-flex">
-              <a href="#" className="text-gray-500 hover:text-gray-700">
+              <a href="#" className="text-gray-500 hover:text-arniko-red">
                 Our Missions
               </a>
             </li>
@@ -103,10 +103,10 @@ export const MissionPage = () => {
               responsibilities.
             </p>
 
-            <div className="my-4">
+            <div className="my-12">
               <img src="/assets/main.png" alt="image" className=" bg-cover" />
             </div>
-            <hr />
+            <hr className="my-12" />
             <div className="quote">
               <h1 className="text-lg font-light p-4 text-arniko-red">
                 <span className="text-6xl ">"</span> It was an expectation that
@@ -124,7 +124,7 @@ export const MissionPage = () => {
                 <span className="text-6xl ">"</span>
               </h1>
             </div>
-            <hr className="mb-12" />
+            <hr className="my-12" />
             <div className="our_vision py-1">
               <h1 className="text-4xl font-normal text-arniko-red ">
                 Our Vision
@@ -276,7 +276,7 @@ export const MissionPage = () => {
                 community. You can’t feel lonely here. There is so much offered
                 to help you settle in quickly.
               </h1>
-              <h1 className=" font-light text-lg p-4 mb-4">
+              <h1 className=" font-light text-lg p-4 mb-6">
                 - Mrs J, ICS Parent<span className="text-6xl ">"</span>
               </h1>
             </div>

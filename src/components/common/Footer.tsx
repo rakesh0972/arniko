@@ -19,12 +19,12 @@ const Footer = () => {
               alt=""
             />
           </div>
-          <div className="icons flex gap-3 mt-3 text-white text-3xl cursor-pointer justify-center">
-            <AiFillFacebook />
-            <AiOutlineInstagram />
-            <AiFillLinkedin />
-            <AiFillYoutube />
-            <AiOutlineTwitter />
+          <div className="icons flex gap-3 mt-3 text-white text-3xl cursor-pointer justify-center ">
+            <AiFillFacebook className="hover:text-arniko-red" />
+            <AiOutlineInstagram className="hover:text-arniko-red" />
+            <AiFillLinkedin className="hover:text-arniko-red" />
+            <AiFillYoutube className="hover:text-arniko-red" />
+            <AiOutlineTwitter className="hover:text-arniko-red" />
           </div>
         </div>
         <div className="footer_section_2 text-white p-5  lg:w-[20%]">
@@ -59,17 +59,17 @@ const Footer = () => {
           </h1>
           <p className="text-left text-white font-semibold text-sm">
             <nav className="flex flex-col gap-1 cursor-pointer">
-              <a>Learn at Arniko </a>
-              <a>Admissions</a>
-              <a>School year Calendar</a>
-              <a>Arniko News </a>
-              <a>Arniko Bulletin</a>
-              <a>Lunch </a>
-              <a>Menus</a>
-              <a>Our Location</a>
-              <a>Privacy </a>
-              <a>Notice</a>
-              <a>Sitemap</a>
+              <a className="hover:text-arniko-red">Learn at Arniko </a>
+              <a className="hover:text-arniko-red">Admissions</a>
+              <a className="hover:text-arniko-red">School year Calendar</a>
+              <a className="hover:text-arniko-red">Arniko News </a>
+              <a className="hover:text-arniko-red">Arniko Bulletin</a>
+              <a className="hover:text-arniko-red">Lunch </a>
+              <a className="hover:text-arniko-red">Menus</a>
+              <a className="hover:text-arniko-red">Our Location</a>
+              <a className="hover:text-arniko-red">Privacy </a>
+              <a className="hover:text-arniko-red">Notice</a>
+              <a className="hover:text-arniko-red">Sitemap</a>
             </nav>
           </p>
         </div>

@@ -9,10 +9,10 @@ const Bgreact = (props) => {
     backgroundPosition: "center",
   };
   return (
-    <div>
+    <div className="py-12">
       <div>
         <div>
-          <img src={props.img} className="bg-cover" />
+          <img src={props.img} className="bg-cover w-full" />
           <div className=" text-center font-semibold ">{props.title}</div>
         </div>
       </div>
